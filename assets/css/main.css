@@ -3071,11 +3071,18 @@ input, select, textarea {
 				display: none;
 			}
 
+		
+
 		/* List */
 
 			ul.icons li .icon {
 				font-size: 1.25em;
 			}
+
+		/* Video */
+			/* #iframe-parent {
+				width: 85vw !important;
+		} */
 
 		/* Header */
 
@@ -3141,7 +3148,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
 	}
+
+		
 
 /* Small */
 
@@ -3222,8 +3232,8 @@ input, select, textarea {
 	}
 
 		/* Video Player */
-		.iframe-parent{
-			width: 50vw;
+		#iframe-parent{
+			/* width: 50vw; */
 			height: 50vh;
 			align-content: center;
 			padding-bottom: 1.5em;
